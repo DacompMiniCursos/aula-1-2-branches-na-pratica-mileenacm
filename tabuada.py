@@ -1,7 +1,6 @@
+numero = int(input("Digite o número: "))
+
 def tabuada():
-
-    numero = int(input("Digite o número: "))
-
     i = 1
     while i <= 10:
         print(f"{numero} x {i} = {numero*i}")
@@ -9,3 +8,12 @@ def tabuada():
     return
 
 tabuada()
+
+print()
+
+def tabuada_feature(): 
+    for i in range(1,11): #ou range(10)
+        print(f" {numero} x {i} = {numero*i}")
+    return
+
+tabuada_feature()
